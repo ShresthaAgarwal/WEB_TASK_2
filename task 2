@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+<style>
+  body {background-color: rgb(244, 250, 194);}
+  h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;  
+  background-color: rgb(0, 247, 255); 
+}
+p {
+  border: 2px solid rgb(131, 218, 184);
+  margin: 50px;
+  padding:20px;
+}
+div {
+  background-color: rgb(204, 146, 146);
+  width: 300px;
+  border: 15px solid rgb(204, 18, 18);
+  padding: 50px;
+  margin: 20px;
+}
+img {
+  float: left;
+}
+p.clear {
+  clear: left;
+}
+</style>
+</head>
+<body>
+
+<h1 >Task 2</h1>
+
+<p><span class="a">This is paragraph with inline.</span></p>
+<p>Both these paragraphs contains padding, box model, margin.</p>
+
+<div> This is box model. </div>
+
+<img src="C:\Users\DELL PC\Downloads\images.jpg" alt="Image" style="width:170px;height:170px;margin-right:15px;">
+  <p class="clear"> the image will float to the left in the paragraph, and the text in the paragraph will wrap around the image. </p>
+
+</body>
+</html>
+
+
